@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://nhanguiyeuthuong.me/wp-content/plugins/ngyt/templates/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        var ngyth_ajax = {
+            ajax_url: 'https://nhanguiyeuthuong.me/wp-admin/admin-ajax.php',
+            nonce: '5c794ae5f4'
+        };
+    </script>
+    <style>
+        .box2 {
+            background-image: url('https://nhanguiyeuthuong.me/wp-content/uploads/2024/10/love3.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+    </style>
+    <title>Một Lời Yêu Thương 🤗</title>
+</head>
+<body>
+    <div id="sun">
+        <img src="https://nhanguiyeuthuong.me/wp-content/plugins/ngyt/templates/assets/css/sun.svg" width="150px" alt="">
+    </div>
+    <div id="bee">
+        <img src="https://nhanguiyeuthuong.me/wp-content/plugins/ngyt/templates/assets/css/bee.svg" width="150px" alt="">
+        <span class="text-ngyt fw-bolder">Bee bee...</span>
+    </div>
+    <div id="loading">
+        <div class="text-center">
+            <img src="https://nhanguiyeuthuong.me/wp-content/plugins/ngyt/templates/assets/css/hearts.svg" width="250px" alt="">
+            <h2 style="color:#fba0a8; text-shadow: 2px 2px 2px white;">Đang tải....</h2>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-md-12 col-lg-6 col-sm-12" id="full-box">
+                    <div class="text-center w-100"></div>
+                    <div class="box animate__animated  animate__backInUp">
+                        <div class="hearts"></div>
+                        <div>
+                            <h4 class=""><span class="text-ngyt fw-bolder">Có một lời yêu thương gửi tới bạn</span> 💌</h4>
+                        </div>
+                        <div class="w-100 mt-2">
+                            <label class="text-secondary text-ngyt">Mật khẩu của trái tim 🧡</label>
+                            <input id="password" class="form-control" type="text" class="w-100" placeholder="Nhập vào đây">
+                            <small id="error-mess" style="color:#979797;">Mật khẩu phải ghi liền không dấu*</small>
+                        </div>
+                        <div class="mt-2 w-100">
+                            <button class="btn btn-outline-ngyt" id="btn-matkhau" data-id='358687'>Đồng ý</button>
+                        </div>
+                    </div>
+                    <div class="letter">
+                        <img src="https://nhanguiyeuthuong.me/wp-content/plugins/ngyt/templates/assets/css/letter.png" width="100%" class="animate__infinite animate__animated animate__heartBeat animate__slow" alt="">
+                    </div>
+                    <div class="box2 animate__animated  ">
+                        <div class="img-left">
+                            <p class="text-center">
+                                <img src="https://nhanguiyeuthuong.me/wp-content/plugins/ngyt/templates/assets/random/3.png" width="100px" alt="" style="float: left; transform: rotate(338deg);">
+                                <div class="text-content">
+                                    <div class="text-start w-100 pb-3">Gửi <span class="fw-bold">Đinh Thị Quỳnh Hương</span>,</div>
+                                    <div class="text-message">Chúc chị ngày 20/10 tràn ngập niềm vui và hạnh phúc! Chị là một người đặc biệt đối với em. Chúc chị luôn tự tin, luôn mỉm cười và sống hết mình với những ước mơ. Hy vọng rằng chị sẽ nhận được nhiều yêu thương và sự trân trọng từ mọi người xung quanh!</div>
+                                    <div class="text-end w-100 pt-3">Từ: <span class="fw-bold">Đinh Phong Lưu</span></div>
+                                    <audio id="backgroundAudio" autoplay loop controls>
+                                        <source src="" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                    </audio>
+                                </div>
+                            </p>
+                        </div>
+                        <div id="img-img-left">
+                            <img src="https://nhanguiyeuthuong.me/wp-content/plugins/ngyt/templates/assets/css/6009247.png" width="50px" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="flower-footer"></div>
+    <script src="https://nhanguiyeuthuong.me/wp-content/plugins/ngyt/templates/assets/js/script.js"></script>
+</body>
+</html>
